@@ -1,0 +1,60 @@
+1. An algorithm that asks a user to enter a positive number repeatedly until the user enters a zero value, then determines and outputs the largest of the numbers that were input.
+
+SET variable named largest to 0
+READ a positive number and store in variable x
+WHILE x!=0
+    IF x>largest
+        SET largest to x
+    END IF
+READ a positive number and store in variable x
+END WHILE
+PRINT largest
+
+
+2. An algorithm that requests a user to input their name and then stores their name in a variable called first_name. Subsequently, the algorithm should print out first_name along with the phrase "Hello, World"	
+
+SET first_name as a variable  
+READ a name from user and store in first_name
+PRINT "Hello, World " + first_name
+
+
+3. An algorithm that reads an arbitrary number of integers and then returns their arithmetic average.
+
+SET total_integers to 0
+SET counter to 1
+READ number of integers from user 
+SET number_of_integers to user input
+
+WHILE counter is less than or equal to number_of_integers
+    READ an integer from the user
+    ADD the user's integer to total_integers
+    INCREMENT counter by 1
+END WHILE
+
+CALCULATE the average by dividing total_integers by number_of_integers
+PRINT "The arithmetic average is: " + average
+
+
+4. An algorithm that reads a grocery list and prints out the products (in alphabetical order) that are still left to buy (you can decide what these are).
+
+READ a series of itemes and store in grocery_list 
+SORT items in grocery_list  according to alphabetical order
+WHILE next item in grocery_list exists
+    SET current_item variable as next item in grocery_list
+    IF current_item is left to buy
+        PRINT current_item 
+END WHILE
+
+
+5. An algorithm for the flowchart below:
+
+READ an integer and SET the value in variable X
+READ an integer and SET the value in variable Y
+
+SET S as the sum of x and y
+SET A as the result of dividing S by 2
+SET P as the product of x and y
+
+PRINT "Sum (S): " + S
+PRINT "Average (A): " + A
+PRINT "Product (P): " + P
